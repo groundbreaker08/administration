@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sonic - Administration</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{secure_asset('assets/css/login.css')}}">
+    <script type="text/javascript" src="{{secure_asset('assets/js/particle.js')}}"></script>
+    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+</head>
+<body id="app-layout">
 <div class="container">
 
     <div id="loginbox" class="mainbox col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
@@ -283,3 +298,5 @@
 	c-0.049-0.366-0.046-0.739-0.025-1.11c0.009-0.125,0.024-0.25,0.042-0.375C12.122,17.814,12.141,17.732,12.164,17.65z"></path>
     </g>
 </svg>
+</body>
+</html>
